@@ -139,19 +139,34 @@ table {
   font-size: 50px;
   margin-top: 15px;
 }
+.left-wrapper {
+  width: 25%;
+  background-color: #14121e;
+}
+.left-wrapper h3 {
+  color: white;
+  font-size: 18px;
+  margin: 25px;
+  position: sticky;
+  padding-bottom: 10px;
+  bottom: 0;
+  color: crimson;
+}
 .left-side {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100vh;
-  width: 25%;
+  width: 100%;
   background-color: #14121e;
+}
+.left-side .h1-wrapper {
+  margin-top: 50px;
 }
 .left-side h1 {
   color: white;
   margin-left: 20px;
   font-family: Lato, sans-serif;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .left-side h3 {
   color: white;
@@ -181,6 +196,7 @@ table {
   font-size: 18px;
   font-family: Lato;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 .track-section {
   display: flex;
@@ -194,6 +210,12 @@ table {
   height: 175px;
   margin-top: 20px;
   border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Lato;
 }
 .track-section .box1 {
   background-color: #14121e;
@@ -209,4 +231,7 @@ table {
 }
 .track-section .box5 {
   background-color: #1b61ac;
+}
+.track-section .box6 {
+  background-color: #d74b5a;
 }
