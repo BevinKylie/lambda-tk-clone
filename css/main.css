@@ -161,6 +161,8 @@ table {
   .logo {
     margin: 15px;
     margin-bottom: 0;
+    width: 50px;
+    height: auto;
   }
 }
 .left-side h1 {
@@ -171,6 +173,7 @@ table {
 @media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-side h1 {
     margin-top: 0;
+    font-size: 24px;
   }
 }
 .left-wrapper {
@@ -220,8 +223,7 @@ table {
 }
 @media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-side .h1-wrapper {
-    text-align: center;
-    margin-top: 5px;
+    display: flex;
   }
 }
 .left-side h1 {
@@ -229,6 +231,12 @@ table {
   margin-left: 20px;
   font-family: Lato, sans-serif;
   margin-top: 25px;
+}
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
+  .left-side h1 {
+    margin-left: 5px;
+    margin-top: 0;
+  }
 }
 .left-side h3 {
   color: white;

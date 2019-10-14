@@ -163,6 +163,8 @@ table {
     @media @mobile{
         margin: 15px;
         margin-bottom: 0;
+        width: 50px;
+        height: auto;
     }
 }
 .left-side h1 {
@@ -170,7 +172,8 @@ table {
 	font-size: 50px;
 	margin-top: 15px;
 	@media @mobile {
-		margin-top: 0;
+        margin-top: 0;
+        font-size: 24px;
 	}
 }
 
@@ -212,8 +215,7 @@ table {
 	background-color: (rgb(20, 18, 30));
 	.h1-wrapper {
 		@media @mobile {
-			text-align: center;
-			margin-top: 5px;
+			display: flex;
 		}
 		margin-top: 50px;
 	}
@@ -221,7 +223,11 @@ table {
 		color: white;
 		margin-left: 20px;
 		font-family: Lato, sans-serif;
-		margin-top: 25px;
+        margin-top: 25px;
+        @media @mobile{
+            margin-left: 5px;
+            margin-top: 0;
+        }
 	}
 	h3 {
 		color: white;
