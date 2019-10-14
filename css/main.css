@@ -180,6 +180,12 @@ table {
   width: 25%;
   background-color: #14121e;
 }
+.left-wrapper a {
+  text-decoration: none;
+}
+.left-wrapper ahover {
+  cursor: pointer;
+}
 @media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-wrapper {
     width: 100%;
