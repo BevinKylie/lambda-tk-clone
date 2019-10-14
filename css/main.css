@@ -129,7 +129,7 @@ table {
 .main-container {
   display: flex;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .main-container {
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ table {
   width: 150px;
   margin: 25px;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .logo {
     margin: 15px;
     margin-bottom: 0;
@@ -151,7 +151,7 @@ table {
   font-size: 50px;
   margin-top: 15px;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-side h1 {
     margin-top: 0;
   }
@@ -160,7 +160,7 @@ table {
   width: 25%;
   background-color: #14121e;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-wrapper {
     width: 100%;
     display: flex;
@@ -177,7 +177,7 @@ table {
   bottom: 0;
   color: crimson;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-wrapper h3 {
     display: inline-flex;
     text-align: center;
@@ -191,7 +191,7 @@ table {
   width: 100%;
   background-color: #14121e;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-side {
     height: 100%;
     align-items: center;
@@ -201,7 +201,7 @@ table {
 .left-side .h1-wrapper {
   margin-top: 50px;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .left-side .h1-wrapper {
     text-align: center;
     margin-top: 5px;
@@ -233,7 +233,7 @@ table {
   padding-top: 60px;
   background-color: #f0f4f7;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .right-side {
     width: 94%;
   }
@@ -254,7 +254,7 @@ table {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .track-section {
     width: 100%;
   }
@@ -273,7 +273,7 @@ table {
   font-size: 20px;
   font-family: Lato;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .track-section .box {
     width: 75%;
     height: 100px;
@@ -304,7 +304,7 @@ table {
   width: 100%;
   justify-content: center;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .forms-section {
     justify-content: center;
   }
@@ -324,7 +324,7 @@ table {
   margin-top: 20px;
   margin-right: 20px;
 }
-@media only screen and (min-width: 550px) and (max-width: 700px)  {
+@media only screen and (min-width: 250px) and (max-width: 850px)  {
   .forms-section .form-box {
     width: 49%;
     margin-right: 0;
