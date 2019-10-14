@@ -140,6 +140,12 @@ table {
   width: 150px;
   margin: 25px;
 }
+@media only screen and (min-width: 550px) and (max-width: 700px)  {
+  .logo {
+    margin: 15px;
+    margin-bottom: 0;
+  }
+}
 .left-side h1 {
   color: white;
   font-size: 50px;
@@ -189,7 +195,7 @@ table {
   .left-side {
     height: 100%;
     align-items: center;
-    width: 75%;
+    width: 100%;
   }
 }
 .left-side .h1-wrapper {
@@ -198,7 +204,7 @@ table {
 @media only screen and (min-width: 550px) and (max-width: 700px)  {
   .left-side .h1-wrapper {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
 .left-side h1 {
@@ -229,7 +235,7 @@ table {
 }
 @media only screen and (min-width: 550px) and (max-width: 700px)  {
   .right-side {
-    width: 100%;
+    width: 94%;
   }
 }
 .right-side h2 {
@@ -250,7 +256,7 @@ table {
 }
 @media only screen and (min-width: 550px) and (max-width: 700px)  {
   .track-section {
-    width: 90%;
+    width: 100%;
   }
 }
 .track-section .box {
@@ -298,6 +304,11 @@ table {
   width: 100%;
   justify-content: center;
 }
+@media only screen and (min-width: 550px) and (max-width: 700px)  {
+  .forms-section {
+    justify-content: center;
+  }
+}
 .forms-section h3 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -312,4 +323,13 @@ table {
   height: 150px;
   margin-top: 20px;
   margin-right: 20px;
+}
+@media only screen and (min-width: 550px) and (max-width: 700px)  {
+  .forms-section .form-box {
+    width: 49%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
